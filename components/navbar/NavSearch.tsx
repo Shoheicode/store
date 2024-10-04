@@ -8,7 +8,6 @@ export default function NavSearch() {
         placeholder='search product...'
         className='max-w-xs dark:bg-muted'
     >
-        NavSarch
     </Input>
   )
 }
