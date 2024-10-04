@@ -1,3 +1,4 @@
+import { cn } from '@/lib/utils';
 import React from 'react'
 
 export default function Container(
@@ -6,6 +7,8 @@ export default function Container(
         className?: string;}
     ) {
     return (
-        <div>Container</div>
+        <div className={cn('mx-auto')}>
+            Container
+        </div>
     )
 }
