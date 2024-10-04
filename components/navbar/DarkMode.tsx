@@ -1,7 +1,15 @@
 import React from 'react'
+import { DropdownMenu, DropdownMenuTrigger } from '../ui/dropdown-menu'
+import { Button } from '../ui/button'
 
 export default function DarkMode() {
   return (
-    <div>DarkMode</div>
+    <DropdownMenu>
+        <DropdownMenuTrigger>
+            <Button variant='outline' size='icon'>
+
+            </Button>
+        </DropdownMenuTrigger>
+    </DropdownMenu>
   )
 }
