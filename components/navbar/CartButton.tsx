@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function CardButton() {
+export default function CartButton() {
   return (
-    <div>CardButton</div>
+    <div>CartButton</div>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import Container from '../global/Container'
 import Logo from './Logo'
 import NavSearch from './NavSearch'
-import CardButton from './CartButton'
+import CartButton from './CartButton'
 
 export default function Navbar() {
   return (
@@ -10,7 +10,7 @@ export default function Navbar() {
         <Logo/>
         <NavSearch/>
         <div className='flex gap-4 item-center'>
-            <CardButton/>
+            <CartButton/>
         </div>
     </Container>
   )
