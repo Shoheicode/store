@@ -1,7 +1,16 @@
 import React from 'react'
+import { Button } from '../ui/button'
+import Link from 'next/link'
+import { CiShoppingCart } from "react-icons/ci";
 
 export default function CartButton() {
-  return (
-    <div>CartButton</div>
-  )
+    // temp
+    const numItemsInCard = 9
+    return (
+        <Button asChild>
+            <Link href='/'>
+
+            </Link>
+        </Button>
+    )
 }
