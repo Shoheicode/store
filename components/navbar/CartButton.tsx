@@ -9,7 +9,7 @@ export default function CartButton() {
     return (
         <Button asChild>
             <Link href='/'>
-
+             <CiShoppingCart />
             </Link>
         </Button>
     )
