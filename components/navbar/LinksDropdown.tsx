@@ -12,7 +12,7 @@ import {Button} from '../ui/button'
 import {links} from '@/utils/links'
 
 export default function LinksDropdown() {
-  return (
-    <div>LinksDropdown</div>
-  )
+  return <DropdownMenu>
+    <DropdownMenuTrigger></DropdownMenuTrigger>
+  </DropdownMenu>
 }
