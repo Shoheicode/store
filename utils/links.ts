@@ -8,6 +8,6 @@ export const links: NavLink[] = [
    {href: "/about", label: "home"},
    {href: "/products", label: "home"},
    {href: "/favorites", label: "home"},
-   {href: "/", label: "home"},
-   {href: "/", label: "home"}, 
+   {href: "/cart", label: "home"},
+   {href: "/orders", label: "home"}, 
 ]
