@@ -19,7 +19,11 @@ export default function LinksDropdown() {
       </Button>
     </DropdownMenuTrigger>
     <DropdownMenuContent className='w-48' align='start' sideOffset={10}>
-      
+      {links.map((link) =>{
+        return <DropdownMenuItem key={link.href}>
+          
+        </DropdownMenuItem>
+      })}
     </DropdownMenuContent>
   </DropdownMenu>
 }
