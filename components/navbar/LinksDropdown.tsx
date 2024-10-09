@@ -13,6 +13,13 @@ import {links} from '@/utils/links'
 
 export default function LinksDropdown() {
   return <DropdownMenu>
-    <DropdownMenuTrigger></DropdownMenuTrigger>
+    <DropdownMenuTrigger asChild>
+      <Button variant='outline' className='flex gap-4 max-w-[100px]'>
+        <LuAlignLeft className='w-6 h-6'>
+
+        </LuAlignLeft>
+      </Button>
+    </DropdownMenuTrigger>
+    <DropdownMenuContent></DropdownMenuContent>
   </DropdownMenu>
 }
