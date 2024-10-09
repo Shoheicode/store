@@ -18,6 +18,8 @@ export default function LinksDropdown() {
         <LuAlignLeft className='w-6 h-6'/>
       </Button>
     </DropdownMenuTrigger>
-    <DropdownMenuContent></DropdownMenuContent>
+    <DropdownMenuContent className='w-48' align='start' sideOffset={10}>
+      
+    </DropdownMenuContent>
   </DropdownMenu>
 }
