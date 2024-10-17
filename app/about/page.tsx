@@ -6,8 +6,17 @@ async function AboutPage(){
         name: "RANDOM NAME"
       }
     })
+
+    const user = await db.testProfile.findMany();
     return (
-      <div>About Page</div>
+      <div>
+        {user.map((user) => {
+          return <h2 key={user.id} className='text-2xl font-bold'>
+            {user.name}
+          </h2>
+        })}
+
+      </div>
     )
   }
   
