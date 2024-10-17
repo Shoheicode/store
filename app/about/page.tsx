@@ -1,4 +1,4 @@
-function AboutPage(){
+async function AboutPage(){
     return (
       <div>About Page</div>
     )
