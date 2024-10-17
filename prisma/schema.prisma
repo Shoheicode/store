@@ -18,3 +18,10 @@ model TestProfile{
   id  String  @id @default(uuid())
   name String 
 }
+
+model Product{
+  id  String  @id @default(uuid())
+  name String
+  company String
+  description String 
+}
