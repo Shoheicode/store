@@ -25,4 +25,5 @@ model Product{
   company String
   description String
   featured Boolean 
+  image String
 }
