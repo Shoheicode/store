@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 function HomePage(){
   return (
     <>
-      <Hero></Hero>
+      <Hero/>
       <ProductList></ProductList>
     </>
   )
