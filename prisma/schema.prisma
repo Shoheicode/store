@@ -28,4 +28,6 @@ model Product{
   image String
   price Int
   createdAt DateTime
+  updatedAt DateTime
+  clerkId String
 }
