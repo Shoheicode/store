@@ -26,4 +26,5 @@ model Product{
   description String
   featured Boolean 
   image String
+  price Int
 }
