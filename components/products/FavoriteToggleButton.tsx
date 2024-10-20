@@ -1,6 +1,7 @@
 import React from 'react'
+import { FaHeart } from 'react-icons/fa'
 
-function FavoriteToggleButton() {
+function FavoriteToggleButton({productID}:{productID:string}) {
   return (
     <div>FavoriteToggleButton</div>
   )
