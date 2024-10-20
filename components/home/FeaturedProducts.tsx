@@ -1,6 +1,6 @@
 import React from 'react'
 
-function FeaturedProducts() {
+async function FeaturedProducts() {
   return (
     <div>FeaturedProducts</div>
   )
