@@ -6,7 +6,9 @@ async function FeaturedProducts() {
   const products = await fetchAllProducts()
   if(products.length == 0) return <EmptyList/>
   return (
-    <div>FeaturedProducts</div>
+    <section>
+      
+    </section>
   )
 }
 
