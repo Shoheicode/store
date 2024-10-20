@@ -1,6 +1,8 @@
 import React from 'react'
 import { Product } from '@prisma/client'
 import { formatCurrency } from '@/utils/format'
+import Link from 'next/link'
+import { Card, CardContent } from '../ui/card'
 
 function ProductGrid({products}:{products: Product[]}) {
   return (
@@ -9,7 +11,16 @@ function ProductGrid({products}:{products: Product[]}) {
         const {name,price,image} = product
         const productID = product.id
         const dollarAmount = formatCurrency(price)
-        return "hello"
+        return <article key={productID} className='group relative'>
+          <Link href={`/products/${productID}`}>
+            <Card className='transform group-hover:shadow-xl transition-shadow duration-500'>
+              <CardContent>
+                
+              </CardContent>
+            </Card>
+          </Link>
+
+        </article>
       })
       }
     </div>
