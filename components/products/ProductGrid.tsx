@@ -3,6 +3,7 @@ import { Product } from '@prisma/client'
 import { formatCurrency } from '@/utils/format'
 import Link from 'next/link'
 import { Card, CardContent } from '../ui/card'
+import Image from 'next/image'
 
 function ProductGrid({products}:{products: Product[]}) {
   return (
@@ -15,7 +16,9 @@ function ProductGrid({products}:{products: Product[]}) {
           <Link href={`/products/${productID}`}>
             <Card className='transform group-hover:shadow-xl transition-shadow duration-500'>
               <CardContent className='p-4'>
-                <div className='realive h-64 md:-h48 rounded overflow-hidden'></div>
+                <div className='realive h-64 md:-h48 rounded overflow-hidden'>
+                  <Image src={image} alt={name} fill sizes='(max-width:768px) 100vw, (max-width:1200px) 50vw, 33vw' priority className='rounded w-full object-cover transform group-hover:scale-110 transition-transform duration-300'/>
+                </div>
               </CardContent>
             </Card>
           </Link>
