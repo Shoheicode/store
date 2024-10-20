@@ -14,7 +14,7 @@ function ProductGrid({products}:{products: Product[]}) {
         return <article key={productID} className='group relative'>
           <Link href={`/products/${productID}`}>
             <Card className='transform group-hover:shadow-xl transition-shadow duration-500'>
-              <CardContent>
+              <CardContent className='p-4'>
                 
               </CardContent>
             </Card>
