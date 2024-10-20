@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ProductGrid() {
+function ProductGrid({products}:{products:[]}) {
   return (
     <div>ProductGrid</div>
   )
