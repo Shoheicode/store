@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { Card, CardContent } from '../ui/card'
 import Image from 'next/image'
 
+//Product grid
 function ProductGrid({products}:{products: Product[]}) {
   return (
     <div className='pt-12 grid gap-4 md:grid-cols-2'>
