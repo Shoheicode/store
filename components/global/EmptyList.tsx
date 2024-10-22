@@ -1,6 +1,7 @@
 import { cn } from '@/lib/utils'
 import React from 'react'
 
+//Created the item for empty list
 function EmptyList({heading = 'No items found.', className} : {heading?:string, className?:string}) {
   return (
     <h2 className={cn('text-xl', className)}>
