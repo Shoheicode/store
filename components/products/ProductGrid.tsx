@@ -31,4 +31,5 @@ function ProductGrid({products}:{products: Product[]}) {
   )
 }
 
+//This exports product grid
 export default ProductGrid
